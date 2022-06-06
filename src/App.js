@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react"
 
 function App() {
+
+ const [counter,state] = React.useState(0);
+
+ const changeValue = (value) => {
+  state(counter + value);
+};
+ const doubleValue = () => {
+     state(counter*2);
+ };
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+     <h2>COUNTER</h2>
+     <div>
+     <h3 style={counter%2===0?{color:'green'}:{color:'red'}}>{counter}</h3></div>
+     <button onClick={()=>{changeValue(+1)}}>INCREMENT</button>
+     <button onClick={()=>{changeValue(-1)}}>DECREMENT</button>
+     <button onClick={doubleValue}>DOUBLE</button>
+     </div>
     </div>
   );
 }
