@@ -1,8 +1,9 @@
 # Counter - Using React Props and State
 
-A basic counter build using React.
+A basic counter built using React.
+<div style="display: flex; justify-contents: center">
 
-<img src="https://github.com/Jasmine-Shaikh/Counter-ReactPropsAndState/blob/master/Counter.PNG"/>
+<img src="https://github.com/Jasmine-Shaikh/Counter-ReactPropsAndState/blob/master/Counter.PNG"/></div>
 
 ## Installation
 
