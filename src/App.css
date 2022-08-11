@@ -14,7 +14,7 @@ justify-content: center;
   border: 3px solid black;
   border-radius: 10px;
   width: 220px;
-  background-color: rgb(16, 142, 245);
+  background-color: rgb(107, 163, 107);
   padding: 30px;
 }
 
@@ -41,9 +41,10 @@ h3{
 button{
   border-style: none;
   background-color: black;
-  color: rgb(16, 142, 245);
+  color: rgb(107, 163, 107);
   margin: 10px;
   width: 100px;
   height: 40px;
   font-weight: bold;
+  border-radius: 10px;
 }
