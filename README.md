@@ -1,7 +1,7 @@
 # Counter - Using React Props and State
 
 A basic counter built using React.
-<div style="display: flex; justify-contents: center">
+<div style="display: flex; justify-contents: center; width: 100%">
 
 <img src="https://github.com/Jasmine-Shaikh/Counter-ReactPropsAndState/blob/master/Counter.PNG"/></div>
 
