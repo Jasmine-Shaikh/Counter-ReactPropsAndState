@@ -1,4 +1,4 @@
-# Counter-ReactPropsAndState
+# Counter - Using React Props and State
 
 A basic counter build using React.
 
